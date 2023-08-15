@@ -53,7 +53,7 @@ app_name.pack()
 
 description_label = Label(text='To measure your typing speed, please click on "Start" and type the text you see '
                                'onscreen', font=FONT, anchor='w')
-description_label.pack(padx=(0, 22))
+description_label.pack(padx=(0, 28))
 
 canvas = Canvas(width=550, height=150, bg=DISABLED_BG, highlightthickness=1, highlightbackground="gray")
 message = canvas.create_text(10, 10,
